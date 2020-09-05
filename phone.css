@@ -1,0 +1,60 @@
+ #navbar {
+    flex-direction: column;
+}
+#navbar ul li a{
+    padding: 0px 7px;
+    padding-bottom: 8px;
+    font-size: 1rem;
+}
+#home{
+    height: 370px;
+    padding: 3px 28px;
+}
+#home::before{
+    height: 400px;
+}
+#home p{
+    font-size: 13px;
+
+}
+/* services section */
+ #services{
+    flex-direction: column;
+}
+#services .box{
+    padding: 14px;
+    margin: 0px 2px;
+    margin-bottom: 20px;
+    background-color: rgba(222, 222, 222, 1);
+}
+.box img{
+    height: auto;
+    width: 180px;
+    
+}
+
+#item p{
+    font-size:1rem;
+}
+.h-primary{
+    font-size: 2rem;
+}
+.foot{
+    text-align: center;
+}
+#cont{
+align-items: center;
+justify-content: center;
+font-size: 1.3rem;
+
+}
+#contact li a img {
+    /* list-style: none; */
+    height: 50px;
+    width: auto;
+    margin: -15px;
+  }
+#contact li a{
+    padding: 1px 1px;
+    margin: 1px;
+}
